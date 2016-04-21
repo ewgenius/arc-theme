@@ -1,8 +1,12 @@
+# Fork information
+
+Some visual changes(osx window control buttons)
+
 # Arc Theme
 
 Arc is a flat theme with transparent elements for GTK 3, GTK 2 and Gnome-Shell which supports GTK 3 and GTK 2 based desktop environments like Gnome, Unity, Budgie, Pantheon, XFCE, Mate, etc.
 
-###Arc is available in three variants 
+###Arc is available in three variants
 
 #####Arc
 
@@ -72,7 +76,7 @@ Arch Linux users can install the theme from the AUR
 
 #### Manual Installation
 
-To build the theme you'll need 
+To build the theme you'll need
 * `autoconf`
 * `automake`
 * `pkg-config` or `pkgconfig` if you use Fedora
