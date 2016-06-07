@@ -1,6 +1,6 @@
 AC_INIT(
     [arc-theme],
-    [20160331],
+    [20160605],
     [https://github.com/horst3180/Arc-theme/issues],
     [arc-theme],
     [https://github.com/horst3180/Arc-theme],
@@ -22,7 +22,6 @@ ARC_ENABLE([GTK3],          [gtk3],          [GTK3],          [disable])
 ARC_ENABLE([METACITY],      [metacity],      [Metacity],      [disable])
 ARC_ENABLE([UNITY],         [unity],         [Unity],         [disable])
 ARC_ENABLE([XFWM],          [xfwm],          [XFWM],          [disable])
-ARC_ENABLE([XFCE_NOTIFY],   [xfce-notify],   [XFCE Notify],   [disable])
 ARC_ENABLE([TRANSPARENCY],  [transparency],  [transparency],  [disable])
 
 ARC_GNOME

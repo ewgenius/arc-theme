@@ -156,9 +156,6 @@ $disk_space_free: darken($bg_color, 3%);
   }
 }
 
-// View
-NautilusListView .view { border-bottom: 1px solid $borders_color; }
-
 //
 // Nemo
 //
@@ -185,7 +182,6 @@ NemoWindow {
   .primary-toolbar NemoPathBar.linked:not(.vertical):not(.path-bar) > .button:checked,
   .primary-toolbar NemoPathBar.linked:not(.vertical):not(.path-bar) > .button:insensitive {
     @extend %linked;
-    @extend %linked_button;
   }
 
   .primary-toolbar NemoPathBar.linked:not(.vertical):not(.path-bar) {
@@ -214,7 +210,7 @@ NemoWindow {
   border-color: $base_color;  // disable borders, making them transparent doesn't work for some reason
 
   &:prelight {
-    background-color: transparentize(black, 0.95);
+    background-color: mix($fg_color, $base_color, 7%);
 
     &:selected {
       color: $selected_fg_color;
@@ -589,6 +585,9 @@ ClockBox {
 // Xfce Panel
 .xfce4-panel.panel {
   background-color: $panel_bg;
+
+  text-shadow: none;
+  icon-shadow: none;
 
   .button.flat {
     color: $panel_fg;

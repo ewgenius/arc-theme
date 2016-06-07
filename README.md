@@ -113,7 +113,6 @@ Other options to pass to autogen.sh are
     --disable-metacity         disable Metacity support
     --disable-unity            disable Unity support
     --disable-xfwm             disable XFWM support
-    --disable-xfce-notify      disable XFCE Notify support
 
     --with-gnome=<version>     build the theme for a specific Gnome version (3.14, 3.16, 3.18, 3.20)
                                Note: Normally the correct version is detected automatically and this
@@ -136,12 +135,18 @@ from the same directory as this README resides in, or
 #### Arc Firefox theme
 A theme for Firefox is available at https://github.com/horst3180/arc-firefox-theme
 
+#### Arc icon theme
+The Arc icon theme is available at https://github.com/horst3180/arc-icon-theme
+
 #### Chrome/Chromium theme
 To install the Chrome/Chromium theme go to the `extra/Chrome` folder and drag and drop the arc-theme.crx or arc-dark-theme.crx file into the Chrome/Chromium window. The source of the Chrome themes is located in the source "Chrome/arc-theme" folder.
 
 #### Plank theme
 To install the Plank theme, copy the `extra/Arc-Plank` folder to `~/.local/share/plank/themes` or to `/usr/share/plank/themes` for system-wide use.
 Now open the Plank preferences window by executing `plank --preferences` from a terminal and select `Arc-Plank` as the theme.
+
+#### Arc-Dark for Ubuntu Software Center
+The Arc Dark theme for the Ubuntu Software Center by [mervick](https://github.com/mervick) can be installed from [here](https://github.com/mervick/arc-dark-software-center). It solves readability issues with Arc Dark and the Ubuntu Software Center.
 
 ### Troubleshooting
 
@@ -160,4 +165,4 @@ If you find a bug, please report it at https://github.com/horst3180/arc-theme/is
 
 ### Full Preview
 ![A full screenshot of the Arc theme](http://i.imgur.com/tD1OBQ3.png)
-<sub>Screenshot Details: Icons: unreleased | Launcher Icons based on [White Pixel Icons](http://darkdawg.deviantart.com/art/White-Pixel-Icons-252310560) | [Wallpaper](https://pixabay.com/photo-869593/) | Font: Futura Bk bt</sub>
+<sub>Screenshot Details: Icons: [Arc](https://github.com/horst3180/arc-icon-theme) | Launcher Icons based on [White Pixel Icons](http://darkdawg.deviantart.com/art/White-Pixel-Icons-252310560) | [Wallpaper](https://pixabay.com/photo-869593/) | Font: Futura Bk bt</sub>
