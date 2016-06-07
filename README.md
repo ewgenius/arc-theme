@@ -8,6 +8,12 @@ Some visual changes(osx window control buttons)
 
 Arc is a flat theme with transparent elements for GTK 3, GTK 2 and Gnome-Shell which supports GTK 3 and GTK 2 based desktop environments like Gnome, Unity, Budgie, Pantheon, XFCE, Mate, etc.
 
+build light theme for unity:
+
+```
+./autogen.sh --prefix=/usr --disable-transparency --disable-darker --disable-dark --disable-cinnamon --disable-gnome-shell --disable-xfwm --disable-xfce-notify
+```
+
 ###Arc is available in three variants
 
 #####Arc
