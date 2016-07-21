@@ -3292,6 +3292,14 @@ popover.background label.nautilus-canvas-item.separator, headerbar .nautilus-can
   margin: 2px;
   padding: 2px; }
 
+.gedit-map-frame border {
+  border-color: rgba(0, 0, 0, 0.3);
+  border-width: 0; }
+  .gedit-map-frame border:dir(ltr) {
+    border-left-width: 1px; }
+  .gedit-map-frame border:dir(rtl) {
+    border-right-width: 1px; }
+
 .gb-search-entry-occurrences-tag {
   background: none; }
 
@@ -4119,6 +4127,12 @@ filechooser actionbar {
 
 .gedit-bottom-panel-paned {
   background-color: #ffffff; }
+
+.gedit-side-panel-paned > separator {
+  background-image: linear-gradient(to top, rgba(53, 57, 69, 0.95)); }
+
+.gedit-bottom-panel-paned > separator {
+  background-image: linear-gradient(to top, #dcdfe3); }
 
 .gedit-document-panel {
   background-color: rgba(53, 57, 69, 0.95); }
