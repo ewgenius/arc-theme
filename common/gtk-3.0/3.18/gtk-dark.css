@@ -853,7 +853,7 @@ GtkComboBox {
   padding: 5px 5px 4px 5px;
   border-width: 0 0 1px;
   border-style: solid;
-  border-radius: 0;
+  border-radius: 8px 8px 0 0;
   border-color: #262a33;
   color: rgba(207, 218, 231, 0.8);
   background-color: #2f343f; }
@@ -937,7 +937,7 @@ GtkComboBox {
 .titlebar {
   padding-left: 7px;
   padding-right: 7px;
-  border-radius: 3px 3px 0 0;
+  border-radius: 8px 8px 0 0;
   color: rgba(207, 218, 231, 0.8);
   background-color: #2f343f;
   box-shadow: inset 0 1px rgba(54, 59, 72, 0.97); }
@@ -3274,7 +3274,7 @@ UnityDecoration {
   UnityDecoration.top {
     border: 1px solid rgba(32, 35, 43, 0.97);
     border-bottom-width: 0;
-    border-radius: 4px 4px 0 0;
+    border-radius: 8px 8px 0 0;
     padding: 1px 6px 0 6px;
     background-image: linear-gradient(to bottom, #2f343f);
     color: rgba(207, 218, 231, 0.8);

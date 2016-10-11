@@ -20,7 +20,7 @@ UnityDecoration {
   &.top {
     border: 1px solid if($darker=='true' or $variant == 'dark', darken($header_bg, 7%), transparentize(black, 0.9));
     border-bottom-width: 0;
-    border-radius: 4px 4px 0 0;
+    border-radius: 8px 8px 0 0;
     padding: 1px 6px 0 6px;
 
     background-image: linear-gradient(to bottom, opacify($header_bg, 1));
