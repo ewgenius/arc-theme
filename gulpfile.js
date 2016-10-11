@@ -9,14 +9,14 @@ gulp.task('sass', function () {
       outputStyle: 'nested',
       precision: 5,
       onError: function (err) {
-        notify().write(err);
+        notify().write(err)
       }
     }))
     .pipe(rename(function (path) {
-      path.dirname += "/../";
+      path.dirname += "/../"
     }))
     .pipe(gulp.dest('./'))
-});
+})
 
 const inputBase = './svg-assets'
 const inputFiles = {
@@ -43,9 +43,9 @@ const inputFiles = {
 const outputBase = './png-assets'
 
 postfixes = [
-  '.png png 100% 4:4:16:16 16:16',
+  '.png png 100% 4:4:16:16 12:12',
   '@2.png png 100% 4:4:16:16 32:32',
-  '-dark.png png 100% 4:4:16:16 16:16',
+  '-dark.png png 100% 4:4:16:16 12:12',
   '-dark@2.png png 100% 4:4:16:16 32:32'
 ]
 
