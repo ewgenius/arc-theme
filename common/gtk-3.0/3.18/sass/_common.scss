@@ -2756,7 +2756,8 @@ GtkVolumeButton.button { padding: 8px; }
 //
 
 .window-frame {
-  border-radius: if($darker=='false' and $variant=='light', 4px 4px 0 0, 3px 3px 0 0);
+  border-radius: 8px 8px 0 0;
+  //border-radius: if($darker=='false' and $variant=='light', 4px 4px 0 0, 3px 3px 0 0);
   border-width: 0px;
 
   $_wm_border: if($variant=='light', transparentize(black, 0.9), transparentize(black, 0.45));
