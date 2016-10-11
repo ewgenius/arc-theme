@@ -1,5 +1,22 @@
 const gulp = require("gulp")
 const svg = require('svgexport')
+const sass = require("gulp-sass")
+const rename = require('gulp-rename')
+
+gulp.task('sass', function () {
+  return gulp.src(['./**/sass/*.scss', '!./node_modules/**/*', '!./m4/**/*'])
+    .pipe(sass({
+      outputStyle: 'nested',
+      precision: 5,
+      onError: function (err) {
+        notify().write(err);
+      }
+    }))
+    .pipe(rename(function (path) {
+      path.dirname += "/../";
+    }))
+    .pipe(gulp.dest('./'))
+});
 
 const inputBase = './svg-assets'
 const inputFiles = {
@@ -39,7 +56,7 @@ const render = (input, output) => {
   }))), () => resolve())
 }
 
-gulp.task('default', () => {
+gulp.task('render', () => {
   Promise.all(Object.keys(inputFiles).map(button => {
     const states = inputFiles[button]
 
