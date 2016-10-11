@@ -44,9 +44,9 @@ const outputBase = './png-assets'
 
 postfixes = [
   '.png png 100% 4:4:16:16 12:12',
-  '@2.png png 100% 4:4:16:16 32:32',
+  '@2.png png 100% 4:4:16:16 24:24',
   '-dark.png png 100% 4:4:16:16 12:12',
-  '-dark@2.png png 100% 4:4:16:16 32:32'
+  '-dark@2.png png 100% 4:4:16:16 24:24'
 ]
 
 const render = (input, output) => {
